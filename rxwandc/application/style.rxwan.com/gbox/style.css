@@ -1,0 +1,163 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,ul, ol, pre, form, fieldset, legend, button, input, textarea, th{
+    margin: 0;
+    padding: 0;
+     background: none repeat scroll 0 0 #F4F4F4;
+    word-break: break-all;
+}
+li, dl, dt, dd{
+	 margin: 0;
+    padding: 0;
+}
+.longbox {
+    margin: 20px auto;
+    position: relative;
+    width: 700px;
+    z-index: 2;
+}
+.adTable {
+    border-bottom: 1px solid #F4F4F4;
+    border-top: 1px solid #F4F4F4;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.adTable td.borderNone {
+    border: 0 none;
+}
+.adTable td {
+    border-left: 1px solid #F4F4F4;
+    padding: 10px 0;
+    text-align: center;
+}
+.newad {
+    height: 170px;
+    overflow: hidden;
+    text-align: center;
+    width: 170px;
+}
+.ml10 {
+    margin-left: 2px;
+}
+.longConCam {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #F4F4F4;
+}
+.indexTitle {
+    padding: 20px;
+    position: relative;
+}
+
+.f20 {
+    font-size: 20px;
+}
+.c666 {
+    color: #666666;
+}
+.yh {
+    font-family: "微软雅黑";
+}
+.hotgameList{
+	width: 700px;
+	border-top: 1px solid #F4F4F4;
+}
+
+.clean:after, .clearfix:after {
+    clear: both;
+}
+.clean:before, .clean:after, .clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.doit_bd {
+    padding: 17px 0 4px;
+}
+.commbox_bd {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+ol, ul {
+    list-style: none outside none;
+}
+.doit ul li {
+    padding: 0 0 26px;
+    width: 340px;
+}
+.fl {
+    float: left;
+}
+.doit {
+    font-family: Arial,simsun;
+    font-size: 12px;
+}
+.doit .doit_img {
+    float: left;
+    margin: 0 10px 0 18px;
+}
+.doit dl {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 240px;
+}
+.doit dt a {
+    color: #FF8300;
+    font: 12px/18px Arial,simsun;
+}
+.doit .doit_img a {
+    display: block;
+}
+.wrap a {
+    text-decoration: none;
+}
+.doit .doit_img a img {
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    width: 60px;
+}
+fieldset, img {
+    border: 0 none;
+}
+.doit .doit_grade div {
+    background: url("http://pic.51wan.com/web/v1/index/images/doit_grade.jpg") no-repeat scroll 0 -13px transparent;
+    height: 12px;
+    margin: 5px 0;
+    width: 75px;
+}
+.doit .doit_grade p.doit_scale5 {
+    width: 75px;
+}
+.doit .doit_grade p {
+    background: url("http://pic.51wan.com/web/v1/index/images/doit_grade.jpg") no-repeat scroll 0 0 transparent;
+    height: 12px;
+    overflow: hidden;
+}
+
+.doit .doit_content {
+    color: #999999;
+    font: 12px/18px Arial,simsun;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 225px;
+}
+
+.doit dl .doit_btn {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    width: 70px;
+}
+.doit dl .doit_btn a {
+	background-image: url("http://pic.51wan.com/web/v1/index/images/icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 -154px;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    width: 70px;
+}

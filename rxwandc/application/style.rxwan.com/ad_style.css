@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	font:12px "宋体",sans-serif;
+}
+a {
+    text-decoration: none;
+    outline: medium none;
+    overflow: hidden;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#topbar {
+	color: #666666;
+	height: 30px;
+	background: url("http://img.rxwan.com/topbar.png") repeat-x scroll 0 0 transparent;
+	text-align: left;
+	overflow: hidden;
+}
+#topbar .container {
+    position: relative;
+    z-index: 1000;
+}
+.container {
+    margin: 0 auto;
+    text-align: left;
+    width: 960px;
+}
+#topbar a:link, #topbar a:visited {
+    color: #666666;
+}
+#topbar a:hover, #topbar a:active {
+    color: #FF6600;
+}
+#topbar a.current {
+    font-weight: bold;
+}
+
+#chklogin {
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+#chklogin li.first {
+    background: none repeat scroll 0 0 transparent;
+    padding-left: 0;
+}
+
+#chklogin li {
+    background: url("http://img.rxwan.com/topbar.png") no-repeat scroll -29px -30px transparent;
+    float: left;
+    padding: 0 9px;
+}
+#toolist{
+	 height: 30px;
+    left: 640px;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+#toolist li {
+    background: url("http://img.rxwan.com/topbar.png") no-repeat scroll -29px -30px transparent;
+    float: left;
+    padding: 0 9px;
+}
+#toolist li.first {
+    background: none repeat scroll 0 0 transparent;
+    padding-left: 0;
+}
+ol, ul {
+    list-style: none outside none;
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+.clearfix, .container {
+    display: block;
+}
+.clearfix:after, .container:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
+.footer{
+	color: #666666;
+    height: 78px;
+    line-height: 21px;
+    padding-top: 12px;
+    text-align: center;
+}
+.fts_1{
+	color: #CCCCCC;
+}
+.container{
+	height:96px;
+	margin: 0 auto;
+    text-align: left;
+    width: 960px;
+}
+.container img{
+	margin-top: 10px;
+	margin-left: -50px;
+	border:none;
+}
+
+
+#statis{
+	display:none;
+}
+

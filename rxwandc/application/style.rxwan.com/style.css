@@ -1,0 +1,266 @@
+body {
+	background: url("http://img.rxwan.com/outerWrap.gif") repeat-y scroll center 0 #EAF5FB;
+	margin: 0;
+	padding: 0;
+	font:12px "宋体",sans-serif;
+}
+a {
+    text-decoration: none;
+    outline: medium none;
+    overflow: hidden;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#topbar {
+	color: #666666;
+	height: 30px;
+	background: url("http://img.rxwan.com/topbar.png") repeat-x scroll 0 0 transparent;
+	text-align: left;
+	overflow: hidden;
+}
+#topbar .container {
+    position: relative;
+    z-index: 1000;
+}
+.container {
+    margin: 0 auto;
+    text-align: left;
+    width: 960px;
+}
+#topbar a:link, #topbar a:visited {
+    color: #666666;
+}
+#topbar a:hover, #topbar a:active {
+    color: #FF6600;
+}
+#topbar a.current {
+    font-weight: bold;
+}
+
+#chklogin {
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+#chklogin li.first {
+    background: none repeat scroll 0 0 transparent;
+    padding-left: 0;
+}
+
+#chklogin li {
+    background: url("http://img.rxwan.com/topbar.png") no-repeat scroll -29px -30px transparent;
+    float: left;
+    padding: 0 9px;
+}
+#toolist{
+	 height: 30px;
+    left: 640px;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+#toolist li {
+    background: url("http://img.rxwan.com/topbar.png") no-repeat scroll -29px -30px transparent;
+    float: left;
+    padding: 0 9px;
+}
+#toolist li.first {
+    background: none repeat scroll 0 0 transparent;
+    padding-left: 0;
+}
+ol, ul {
+    list-style: none outside none;
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+.clearfix, .container {
+    display: block;
+}
+.clearfix:after, .container:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
+#webheader {
+	background: url("http://img.rxwan.com/bg-hdr.png") repeat-x scroll 0 0 transparent;
+	color: #333333;
+	height: 96px;
+	margin-bottom: 20px;
+}
+#webheader h2 {
+    height: 32px;
+    margin: 0;
+}
+#websection {
+	width: 980px;
+	margin:0 auto;
+}
+#fri{
+	width: 980px;
+	height:100px;
+	margin:0 auto;
+	padding: 10px 14px 0;
+	color: #CCCCCC;
+}
+#fri p{
+	width: 948px;
+	margin-left: 10px;
+}
+#fri p a{
+	color: #3399CC;
+}
+.footer{
+	color: #666666;
+    height: 78px;
+    line-height: 21px;
+    padding-top: 12px;
+    text-align: center;
+}
+.fts_1{
+	color: #CCCCCC;
+}
+.container{
+	height:96px;
+	margin: 0 auto;
+    text-align: left;
+    width: 960px;
+}
+.container img{
+	margin-top: 10px;
+	border:none;
+}
+
+#kaifu_title{
+	width: 100%;
+	height: 25px;
+}
+.tmt {
+    border-left: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+}
+.tmt th {
+    background: none repeat scroll 0 0 #F2F2F2;
+    color: #999999;
+    padding: 8px;
+    border-bottom: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    font-weight: normal;
+}
+.tmt td {
+    border-bottom: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    font-weight: normal;
+    
+    color: #333333;
+    cursor: default;
+    padding: 7px 12px;
+    text-align: center;
+}
+.tmt a {
+    color: #333333;
+}
+.tmt tr.xhover td {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+.tmt tr.xhover td.lxy_h {
+    background: url("http://img.rxwan.com/ghot.gif") no-repeat scroll right 0 #EEEEEE;
+}
+.tmt tr.xhover td.lxy_n {
+    background: url("http://img.rxwan.com/ghot.gif") no-repeat scroll right 0 #EEEEEE;
+}
+.tmt a span {
+    color: #E93A75;
+    text-decoration: underline;
+}
+.tmt a img {
+    border:none;
+}
+.hotcol {
+    background: none repeat scroll 0 0 #FFFCDE;
+}
+.hotcol td {
+    color: #E93A75;
+    cursor: default;
+    padding: 7px 35px;
+    text-align: center;
+}
+.kaifu_title{
+	line-height:25px;
+	margin-bottom:10px;
+}
+.game-t1 {
+    color: #666666;
+    display: inline;
+    float: left;
+    font: 20px 'Microsoft YaHei',SimHei;
+    margin: 0 0;
+}
+
+.lxy_n {
+    background: url("http://img.rxwan.com/ghot.gif") no-repeat scroll right 0 #FFFCDE;
+}
+.lv {
+    height: 34px;
+    background-image: url("http://img.rxwan.com/toolbar.gif");
+}
+.lv h3 {
+    height: 25px;
+    line-height: 18px;
+    overflow: hidden;
+    color: #333333;
+}
+.lv a{
+    color:#FFFFFF; 
+    font-size: 14px; 
+    margin: 6px  20px;
+}
+.ditijiao {
+    height: 28px;
+    line-height: 28px;
+    margin-top: -28px;
+    padding-right: 6px;
+    text-align: right;
+}
+.addGameList{
+	float: right;
+	margin: 5px 5px;
+}
+.addGameList img{
+	border:none;
+}
+.green a{
+	color:#FF6600;
+}
+#statis{
+	display:none;
+}
+#rxid a{
+	border: none;
+}
+#rxid a img{
+	border: none;
+}
+.zd {
+    background-image: url("http://img.rxwan.com/h.gif");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 51px;
+    margin-left: 5px;
+}

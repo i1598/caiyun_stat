@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>文件目录</title>
+	</head>
+	<body>
+		<h1>{if $show eq "/"}根目录{else}{$show}{/if}</h1>
+		<hr />
+		<table border="1" align="left">
+			<thead>
+				<tr>
+					<td width="300">lastModify</td>
+					<td width="200">size(bytes)</td>
+					<td width="200">type</td>
+					<td width="400">name</td>
+				</tr>
+			</thead>
+			<tbody>
+				{if !empty($files)}
+				{foreach from=$files item="file" key="key"}
+				<tr>
+					<td>{$file.lastModify|date_format:"%Y-%m-%d %H-%M-%S"}</td>
+					<td>{$file.size}</td>
+					<td>{if $file.type eq 1}directory{else}file{/if}</td>
+					<td>
+						{if $file.type eq 1 && $show eq "/"}
+							<a href="/list?dir={$smarty.const.APPPATH}views/{$file.name}">{$file.name}</a>
+						{elseif $file.type eq 2 && $show eq "/"}
+							<a href="/{$file.name|regex_replace:'/[\.*]/':'.'}">{$file.name}</a>
+						{else}
+							<a href="{$show}{$file.name|regex_replace:'/[\.*]/':'.'}">{$file.name}</a>
+						{/if}
+					</td>
+				</tr>
+				{/foreach}
+				{/if}
+			</tbody>
+		</table>
+	</body>
+</html>

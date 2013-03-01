@@ -1,0 +1,47 @@
+<?php
+return array(
+    'upload'=>array(
+        'size'=>5242880, //5M=1024x1024x5
+        'mode'=>0755,
+        'dir'=>true,
+        'overwirte'=>true,
+        'ext'=>array('gif', 'jpg', 'png', 'bmp'),
+        'failone'=>true,
+        'rollback'=>true,
+        'prefix_dir'=>'/opt/data/www/kohana/www.caiyunimg.com/'        
+    ),
+    'ext2mime'=>array('gif'=>array('image/gif'), 
+                                        'jpg'=>array('image/jpeg','image/pjpeg'), 
+                                        'jpeg'=>array('image/jpeg','image/pjpeg'), 
+                                        'png'=>array('image/png', 'image/x-png'), 
+                                        'bmp'=>array('image/bmp'), 
+                                        'psd'=>array('application/octet-stream'), 
+                                        'ico'=>array('image/x-icon'), 
+                                        'rar'=>array('application/octet-stream'), 
+                                        'zip'=>array('application/zip','application/x-zip-compressed'), 
+                                        '7z'=>array('application/octet-stream'), 
+                                        'exe'=>array('application/octet-stream'), 
+                                        'avi'=>array('video/avi'),
+                                        'rmvb'=>array('application/vnd.rn-realmedia-vbr'),
+                                        '3gp'=>array('application/octet-stream'),
+                                        'flv'=>array('application/octet-stream'),
+                                        'mp3'=>array('audio/mpeg'),
+                                        'lrc'=>array('application/octet-stream'),
+                                        'txt'=>array('text/plain'),
+                                        'doc'=>array('application/msword'),
+                                        'xls'=>array('application/vnd.ms-excel'),
+                                        'ppt'=>array('application/vnd.ms-powerpoint'),
+                                        'pdf'=>array('application/pdf'),
+                                        'chm'=>array('application/octet-stream'),
+                                        'mdb'=>array('application/msaccess'),
+                                        'dat'=>array('application/octet-stream'),
+                                        'ini'=>array('application/octet-stream'),
+                                        'php'=>array('application/octet-stream'),
+                                        'html'=>array('text/html'),
+                                        'htm'=>array('text/html'),
+                                        'ttf'=>array('application/octet-stream'),
+                                        'js'=>array('application/x-javascript'),
+                                        'xml'=>array('text/xml'),
+                                        'dll'=>array('application/octet-stream')
+    )
+);

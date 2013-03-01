@@ -1,0 +1,121 @@
+.icon-add {
+    background-image: url(images/add.png) !important;
+}
+.icon-delete {
+    background-image: url(images/delete.png) !important;
+}
+.icon-data {
+    background-image: url(images/bogus.png) !important;
+}
+.icon-tickets{
+	background-image: url(images/tickets.png) !important;
+}
+.icon-templates{
+	background-image: url(images/templates.png) !important;
+}
+/*.icon-group{
+	background-image: url(images/group.png) !important;
+}*/
+.icon-subscriptions{
+	background-image: url(images/subscriptions.png) !important;
+}
+/**
+ * 	this is the new icon list for DC
+ * 
+ * 
+ */
+.icon {
+ 	background: url(images/icons.png) no-repeat;
+ }
+.icon-list{
+	background-position: 0 0 !important;
+}
+.icon-node{
+	background-position: 0 -40px !important;
+}
+.icon-topList{
+	background-position: 0 -80px !important;
+}
+.icon-listForKnow{
+	background-position: 0 -440px !important;
+}
+.icon-listForUnknow{
+	background-position: 0 -360px !important;
+}
+.icon-listWelcome{
+	background-position: 0 -200px !important;
+}
+.icon-dictionary{
+	background-position: 0 -120px !important;
+}
+.icon-admin{
+	background-position: 0 -320px !important;
+}
+.icon-usercenter{
+	background-position: 0 -520px !important;
+}
+.icon-statistics{
+	background-position: 0 -240px !important;
+}
+.icon-monitoring{
+	background-position: 0 -400px !important;
+}
+.icon-group{
+	background-position: 0 -560px !important;
+}
+
+/**
+ * 	this is the DC window style.
+ * 
+ * 
+ */
+body{
+	font-family :"微软雅黑";
+    font-size: 12px;
+}
+#header {
+    background: #7F99BE url(images/layout-browser-hd-bg.gif) repeat-x center;
+}
+#header h1 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+    padding: 5px 10px;
+}
+#loading {
+	position: absolute;
+	width: 180px;
+	margin: -70px 0 0 -90px;
+	height: 140px;
+	top: 50%;
+	left: 50%;
+}
+#loading .title {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 180px;
+	height: 27px;
+	font-size:16PX;
+	color:#2A3142;
+}
+#loading .logo {
+	background: url(images/loading.gif) no-repeat;
+	position: absolute;
+	display: block;
+	top: 25px;
+	left: 22px;
+	width: 120px;
+	height: 120px;
+}
+#loading .loadingProcess {
+	position: absolute;
+	display: block;
+	top: 150px;
+	left: 22px;
+	width: 180px;
+	height: 27px;
+	font-size:16PX;
+	color:#2A3142;
+}

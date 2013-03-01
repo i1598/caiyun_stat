@@ -1,0 +1,33 @@
+		.indexShow {
+		    position: relative;
+		    width:700px;
+		    margin: 20px auto;
+		}
+		a:link, a:visited {
+		    color: #7F7F7F;
+		    text-decoration: none;
+		}
+		.indexShowLeft {
+		    background: url("http://static.zcool.com.cn/images/sl.png") no-repeat scroll center center transparent;
+		    display: inline-block;
+		    height: 28px;
+		    left: -40px;
+		    position: absolute;
+		    top: 45%;
+		    width: 28px;
+		}
+		.indexShowRight {
+		    background: url("http://static.zcool.com.cn/images/sr.png") no-repeat scroll center center transparent;
+		    display: inline-block;
+		    height: 28px;
+		    position: absolute;
+		    right: -40px;
+		    top: 45%;
+		    width: 28px;
+		}
+		ul, ol {
+		    list-style: none outside none;
+		}
+		fieldset, img {
+    		border: 0 none;
+		}
