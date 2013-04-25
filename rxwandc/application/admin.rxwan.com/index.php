@@ -1,5 +1,4 @@
 <?php
-echo "aaa";exit;
 //error_reporting(E_ALL);
 /**
  * The directory in which your application specific resources are located.
